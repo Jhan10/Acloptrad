@@ -1,1 +1,1 @@
-web: java -jar target/Acloptrad.jar
+web: java -jar target/acloptrad-0.0.1-SNAPSHOT.jar
