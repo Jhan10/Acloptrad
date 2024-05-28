@@ -6,10 +6,9 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.geanjesus.acloptrad.entities.UF;
-import com.geanjesus.acloptrad.entities.AdviceAPI;
 import com.geanjesus.acloptrad.entities.DeepL;
 import com.geanjesus.acloptrad.entities.TranslateCenter;
+import com.geanjesus.acloptrad.entities.UF;
 
 @RestController
 public class UFController {

@@ -1,19 +1,14 @@
 package com.geanjesus.acloptrad.controllers;
 
-import java.util.List;
-
+import org.json.JSONObject;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.geanjesus.acloptrad.entities.DeepL;
 import com.geanjesus.acloptrad.entities.DeepL.TextToTranslate;
 import com.geanjesus.acloptrad.entities.DeepL.TranslationsHelper;
-import com.geanjesus.acloptrad.entities.DeepL.translations;
-import com.geanjesus.acloptrad.entities.TranslateCenter;
-
-import org.json.*; 
+import com.geanjesus.acloptrad.entities.TranslateCenter; 
 
 @RestController
 public class TranslateController {

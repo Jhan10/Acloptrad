@@ -8,7 +8,6 @@ import org.springframework.web.bind.annotation.RestController;
 
 import com.geanjesus.acloptrad.entities.AdviceAPI;
 import com.geanjesus.acloptrad.entities.DeepL;
-import com.geanjesus.acloptrad.entities.DeepL.TextToTranslate;
 import com.geanjesus.acloptrad.entities.TranslateCenter;
 
 @RestController
