@@ -117,6 +117,9 @@ public class TranslateCenter {
 	}
 	
 	public static String Rights(String contentReturn) {
-		return contentReturn+"<br /><br />\n\n Acloptrad <br /> \n ©2024 Araquari-SC <br /> \n All Rights Reserved.<br />";
+		return contentReturn
+				+"<br/><br/>Acloptrad"
+				+ "<br/>©2024 Araquari-SC"
+				+ "<br/>All Rights Reserved.";
 	}
 }
